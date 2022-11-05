@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+.header{
+    background-color: #130f40;
+    width: 100%;
+    height: 100vh;
+    color: white;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.title{
+text-align: center;
+font-weight: bold;
+}
+
+.subtitle{
+    font-weight: 500;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+
+}
+li{
+    list-style: none;
+}
+.header img{
+    width: 150px;
+    margin-bottom: -30px;
+}
+
+.flex__col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flex__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+
+section{
+    margin: 50px 10px;
+}
+
+.item__border{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.left__item{
+    padding: 10px 15px;
+}
+.right__item{
+    padding: 10px 15px;
+}
+
+.item__image{
+    text-align: center;
+}
+.item__image img{
+    width: 30px;
+}
+
+.item__heading{
+    text-align: center;
+}
+.subtitle{
+    text-align: center;
+}
+
+.item__image .about__image{
+    width: 200px;
+    border-radius: 20px;
+}
+
+.about__icon{
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+
+
+.link__icon{
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 10px;
+}
